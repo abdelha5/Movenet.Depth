@@ -2,8 +2,6 @@
 This is a modification of the pytorch Movenet version "Movenet.Pytorch" created by @fire717 to include depth data of coco images. Depth is extracted using the state-of-the-art monocular depth estimation model "MiDas".
 ![midas](/data/imgs/midas.png)
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/fire717/Fire/blob/main/LICENSE)
-
 ## Intro
 ![start](/data/imgs/three_pane_aligned.gif)
 
