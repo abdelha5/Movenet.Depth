@@ -6,7 +6,7 @@ This is a modification of the pytorch Movenet version "Movenet.Pytorch" created 
 ![start](/data/imgs/three_pane_aligned.gif)
 
 MoveNet is an ultra fast and accurate model that detects 17 keypoints of a body.
-This is A Pytorch implementation of MoveNet from Google. Include training code and pre-train model.
+This is A Pytorch implementation of MoveNet from Google. Further tuned to include Depth data.
 
 Google just release pre-train models(tfjs or tflite), which cannot be converted to some CPU inference framework such as NCNN,Tengine,MNN,TNN, and we can not add our own custom data to finetune, so there is this repo.
 
