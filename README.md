@@ -17,13 +17,11 @@ Run predict.py to show predict result, or run evaluate.py to compute my acc on t
 python predict.py
 ```
 
-## Training Results
+## Results
+This version of the model that was trained using depth data has proven to be able to outperform the original model by running more accurate keypoint predictions on image frames with more complex movements. We ran a comparison between both models on some frames as shown below.
+#### Some samples
+![throw](/data/imgs/frisbee throw.png)
 
-#### Some good samples
-![good](/data/imgs/good.png)
-
-#### Some bad cases
-![bad](/data/imgs/bad.png)
 
 ## Resource
 1. [Blog:Next-Generation Pose Detection with MoveNet and TensorFlow.js](https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html
