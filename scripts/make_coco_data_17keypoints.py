@@ -41,7 +41,7 @@ def main(img_dir, labels_path, output_name, output_img_dir):
     'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 
     'right_ankle'], 'id': 1}]
     """
-    #print(data['images'][:3])#有filename和id
+    #print(data['images'][:3])#filenameid
 
     img_id_to_name = {}
     img_name_to_id = {}
@@ -87,7 +87,7 @@ def main(img_dir, labels_path, output_name, output_img_dir):
             # for i in range(len(keypoints)//3):
             #     x = keypoints[i*3]
             #     y = keypoints[i*3+1]
-            #     z = keypoints[i*3+2]#0没有标注;1有标注不可见（被遮挡）;2有标注可见
+            #     z = keypoints[i*3+2]#0;1）;2
             #     # print(x,y,z)
             #     if z==1:
             #         color = (255,0,0)
@@ -207,7 +207,7 @@ def main(img_dir, labels_path, output_name, output_img_dir):
 
 
 
-            ###visul for exam, comment when use
+            ###visual for exam, comment when use
             if SHOW_POINTS_ON_IMG:
                 cv2.circle(save_img, (int(save_center[0]*new_w), int(save_center[1]*new_h)), 4, (0,255,0), 3)
                 for show_kid in range(len(save_keypoints)//3):
