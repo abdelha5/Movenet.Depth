@@ -9,16 +9,8 @@ import numpy as np
 
 
 """
-segmentation格式取决于这个实例是一个单个的对象（即iscrowd=0，将使用polygons格式）
-还是一组对象（即iscrowd=1，将使用RLE格式
 
-iscrowd=1时（将标注一组对象，比如一群人）
-
-
-标注说明：x,y,v,x,y,v,...
-其中v：#0没有标注;1有标注不可见（被遮挡）;2有标注可见
-
-关键点顺序：'keypoints': ['nose', 'left_eye', 'right_eye', 'left_ear', 'right_ear', 
+'keypoints': ['nose', 'left_eye', 'right_eye', 'left_ear', 'right_ear', 
     'left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 
     'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 
     'right_ankle']
