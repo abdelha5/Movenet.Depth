@@ -1,5 +1,5 @@
 # Movenet.Depth
-This is a modification of the pytorch implementation of Movenet "Movenet.Pytorch" created by @fire717 to include depth data of coco images. Depth is extracted using the state-of-the-art monocular depth estimation model "MiDas".
+This is a modification of the pytorch implementation of Movenet "Movenet.Pytorch" created by `@fire717` to include depth data of coco images. Depth is extracted using the state-of-the-art monocular depth estimation model "MiDas".
 ![midas](../data/imgs/midas.jpg)
 
 ## Intro
