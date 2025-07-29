@@ -1,5 +1,5 @@
 # Movenet.Depth
-This is a modification of the pytorch implementation of Movenet "Movenet.Pytorch" created by `@fire717` to include depth data of coco images. Depth is extracted using the state-of-the-art monocular depth estimation model "MiDas".
+This is a modification of the pytorch implementation of Movenet "Movenet.Pytorch" created by @fire717 to include depth data of coco images. Depth is extracted using the state-of-the-art monocular depth estimation model "MiDas".
 ![midas](../data/imgs/midas.jpg)
 
 ## Intro
@@ -17,7 +17,7 @@ This version of the model that was trained using depth data has proven to be abl
 ![catch](../data/imgs/catch.png)
 
 
-## Resource
+## Resources
 1. [Blog:Next-Generation Pose Detection with MoveNet and TensorFlow.js](https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html
 )
 2. [model card](https://storage.googleapis.com/movenet/MoveNet.SinglePose%20Model%20Card.pdf)
