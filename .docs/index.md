@@ -7,7 +7,7 @@ hero:
   text: "Multi-modal learning in Human Pose Estimation"
   tagline: Project Guide
   image: 
-    src: "pics/three_pane_aligned.gif"
+    src: "pics/midas.png"
     alt: transparent
 
   actions:
