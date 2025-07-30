@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/pages/abdelha5/Movenet.Depth/',
+  base:'/Movenet.Depth/',
   title: "Movenet with Depth integration",
   description: "Multi-modal learning in Human Pose Estimation",
   themeConfig: {
